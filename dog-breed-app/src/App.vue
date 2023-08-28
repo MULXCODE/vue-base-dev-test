@@ -1,15 +1,19 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <img alt="Vue logo" src="./assets/dog-api-logo.svg">
+ 
+  <BreedList msg="List of Breeds"/>
+  <BreedImages msg="Images of Breeds"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import BreedList from './components/BreedList.vue'
+import BreedImages from './components/BreedImages.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    BreedList,
+    BreedImages
   }
 }
 </script>
