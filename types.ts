@@ -15,4 +15,16 @@ export interface Breed {
     breedList: Breed[];
     breedImages: Record<string, string[]>;
   }
+
+  export interface HTMLImageAttribute {
+    alt?: string;
+    crossorigin?: 'anonymous' | 'use-credentials' | '';
+    decoding?: 'async' | 'auto' | 'sync';
+    height?: Number;
+    sizes?: string;
+    src?: string;
+    srcset?: string;
+    usemap?: string;
+    width?: Number;
+  }
   
